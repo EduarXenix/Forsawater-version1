@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e8f9fd;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  justify-content: space-between;
+  display: flex;
+  background-color: #242f9b;
+}
+
+.logo {
+  height: 50px;
+  margin: 20px;
+}
+
+.header-container2 {
+  display: flex;
+}
+
+.loguin {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 19px;
+  color: white;
+  background-color: #646fd4;
+  height: 94px;
+  width: 94px;
+}
+
+.loguin:hover {
+  background-color: #6976e7;
+}
+
+.logo-carrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94px;
+  width: 94px;
+  background-color: #9ba3eb;
+  cursor: pointer;
+}
+
+.logo-carrito img {
+  height: 70px;
+}
+
+.logo-carrito:hover {
+  background-color: #aeb5f7;
+}
+
+.navbar {
+  background-color: #3bacb6;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+  height: 70px;
+  width: 150px;
+  margin: 0 50px;
+  list-style: none;
+  transition: background-color 0.3s;
+}
+
+nav ul li:hover {
+  background-color: #82dbd8;
+}
+
+.contenedor-bievenida {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  /* background-color: yellowgreen; */
+}
+
+.contenedor-bievenida img {
+  height: 700px;
+}
+
+.contenedor-bievenida h2 {
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inicio-hombres {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 40px 0;
+}
+
+h3 {
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+}
+
+.inicio-hombres img {
+  height: 500px;
+}
+
+.inicio-accesorios {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.inicio-accesorios img {
+  height: 500px;
+}
+
+.inicio-niños {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.inicio-niños img {
+  height: 500px;
+}
+
+.inicio-niñas {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.inicio-niñas img {
+  height: 500px;
+}
+
+.inicio-mujeres {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.inicio-mujeres img {
+  height: 500px;
+}
+
+.competencias {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.competencias img {
+  height: 615px;
+}
+
+.competencias h2 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.neopreno-h {
+  padding: 80px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.neopreno-h h2 {
+  width: 280px;
+  padding: 0 20px 0 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neopreno-h img {
+  cursor: pointer;
+  margin: 0 0 0 40px;
+  width: 300px;
+}
+
+.neopreno-m {
+  padding: 80px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.neopreno-m h2 {
+  width: 280px;
+  padding: 0 20px 0 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.neopreno-m img {
+  cursor: pointer;
+  margin: 0 0 0 40px;
+  width: 300px;
+}
+
+.buceo {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.buceo img {
+  width: 940px;
+}
+.buceo h3 {
+  text-align: right;
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.nueva-linea-h {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.nueva-linea-h img {
+  width: 700px;
+}
+.nueva-linea-h h3 {
+  cursor: pointer;
+  text-align: right;
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nueva-linea {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.nueva-linea img {
+  width: 700px;
+}
+.nueva-linea h3 {
+  cursor: pointer;
+  text-align: right;
+  color: white;
+  font-size: xx-large;
+  position: absolute;
+  top: 15%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
